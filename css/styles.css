@@ -1,3 +1,71 @@
 body {
-    background-color: bisque;
+    background-color: black;
+    color: white;
+}
+
+/*Header Navigation*/
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid cyan;
+}
+
+.inline-block ul li {
+    display: inline-block;
+    margin-right: 40px;
+    list-style-type: none;
+    border: 1px solid red;
+}
+
+.logo img {
+    width: 10%;
+    padding: 1%;
+    border: 1px solid yellow;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+/*Hero Space*/
+
+.heroText {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 350px;
+    margin-left: 100px;
+}
+
+/*Footer*/
+
+footer {
+    display: inline-block;
+    width: 98%;
+    padding: 1%;
+    border: 1px solid green;
+}
+
+footer p {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1%;
+    border: 1px solid blue;
+}
+
+footer ul li {
+    display: inline-block;
+    vertical-align: top;
+    list-style-type: none;
+    padding: 1%;
+    border: 1px solid red;
 }

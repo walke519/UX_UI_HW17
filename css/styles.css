@@ -1,37 +1,49 @@
 body {
     background-color: black;
     color: white;
-}
+    font-family: 'Montserrat', sans-serif;
+    }
 
 /*Header Navigation*/
 
 .inline-block {
     display: inline-block;
-    vertical-align: top;
-    border: 1px solid cyan;
+    vertical-align: middle;
+    text-align: middle;
+    margin-top: 20px;
+    margin-left: 550px;
+    width: auto;
+    font-weight: bold;
 }
 
 .inline-block ul li {
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 50px;
+    vertical-align: middle;
     list-style-type: none;
-    border: 1px solid red;
+    font-size: 20px;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 10%;
+    margin-left: 80px;
 }
 
 .logo img {
-    width: 10%;
-    padding: 1%;
-    border: 1px solid yellow;
+    width: 80%;
 }
 
 nav {
-    width: 73%;
+    display: inline-block;
+    width: calc(100% - 10% - 40px);
     padding: 1%;
 }
 
 ul {
-    width: 50%;
-    margin-left: auto;
+    margin: 0;
+    padding: 0;
 }
 
 /*Hero Space*/
@@ -41,31 +53,61 @@ ul {
     padding: 25px;
 }
 
+.heroText h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.green {
+    color: green;
+}
+
 .content {
-    width: 350px;
-    margin-left: 100px;
+    width: 700px;
+    margin-left: 145px;
+    margin-top: 250px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 /*Footer*/
 
 footer {
-    display: inline-block;
+    text-align: left;
     width: 98%;
     padding: 1%;
-    border: 1px solid green;
 }
 
-footer p {
+footer p,
+footer ul {
     display: inline-block;
     vertical-align: top;
+    margin: 0;
     padding: 1%;
-    border: 1px solid blue;
+}
+
+footer ul {
+    padding-left: 0;
 }
 
 footer ul li {
     display: inline-block;
     vertical-align: top;
     list-style-type: none;
-    padding: 1%;
-    border: 1px solid red;
+    margin-left: 0px;
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+footer p {
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 615px;
+    margin-left: 35px;
 }
